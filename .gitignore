@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Compiler output
+*.o
+*.obj
+*.a
+*.so
+*.out
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# macOS
+.DS_Store
